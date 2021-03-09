@@ -15,7 +15,7 @@ Running the solution:
 - run `npm install` to install the already saved dependencies.
 - open two different termisal or cmd and run `node server.js` on the first terminal and `node client.js` on the second terminal
 - use postman or any other Request Client Agent to make the HTTP request as described below
-   * POST /publish/test
-   * Payload {"url": "http://localhost:9000/subscribe/test", "topic": "test"}
-   * content-type should be application/json
+   * POST `/publish/test`
+   * Payload `{"url": "http://localhost:9000/subscribe/test", "topic": "test"}`
+   * `content-type` should be `application/json`
 - note that the configurations can be changed from the available `.env` file.
