@@ -1,0 +1,29 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "This is a solution to the problem statement of creating an endpoint that publish and subscribe at realtime to request.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teejayblaze/UK-dion-interview.git"
+  },
+  "keywords": [
+    "UK-dion",
+    "interview"
+  ],
+  "author": "Sunday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teejayblaze/UK-dion-interview/issues"
+  },
+  "homepage": "https://github.com/Teejayblaze/UK-dion-interview#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
